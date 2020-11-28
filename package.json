@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "tailwindcss": "^2.0.1"
+  },
+  "name": "glourious-mouse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel Rodrigues <gabriel.desenvolve@gmail.com>",
+  "license": "MIT"
+}
