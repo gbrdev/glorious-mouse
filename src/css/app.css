@@ -1,0 +1,78 @@
+@import url('http://fonts.cdnfonts.com/css/sf-ui-display');
+:root {
+  --amarelo: #fdba3b;
+  --white: #ffff;
+  --cyano: #5afefe;
+  --salmon: #ec4b32;
+  --yellow: #febe2b;
+  --green: #57c656;
+  --blue: #53a2e4;
+  --purple: #c04ab9;
+  --dark-purple: #5502fd;
+}
+
+body {
+  font-family: 'SF UI Display', sans-serif;
+  font-weight: 300;
+  color: var(--white);
+  background: linear-gradient(270deg, #17181a 0%, #121213 100%);
+}
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+.hegth {
+  height: 100vh;
+}
+aside {
+  width: 100%;
+  vertical-align: middle;
+
+  background: fixed;
+}
+.bg-sponsor {
+  height: 367px;
+  background: linear-gradient(190deg, #121213 0%, rgba(0, 0, 0, 0) 100%),
+    fixed url(../img/wirelessHeroOne.png) no-repeat;
+  background-size: cover;
+  background-position: right 30% bottom 55%;
+  transform: skewY(-2deg);
+}
+h1 {
+  color: var(--white);
+  font-size: 3.875rem;
+  font-weight: 700;
+}
+
+.amarelo {
+  color: var(--amarelo);
+}
+.rgb {
+  background: linear-gradient(
+    to right,
+    #6666ff,
+    #0099ff,
+    #5afefe,
+    #febe2b,
+    #ff3399,
+    #6666ff
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rgb 38s ease-in-out infinite;
+  background-size: 800% 100%;
+}
+@keyframes rgb {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+.box-gradient {
+  background: linear-gradient(to top, #121212, #17181a);
+}

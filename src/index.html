@@ -3,69 +3,150 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glourious Mouse</title>
+    <title>Glorious Mouse</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="glorious"
+    />
+    <link rel="stylesheet" href="css/app.css" />
   </head>
-  <body>
-    <header>
-      <nav>
-        <div>LOGO</div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Produto</a></li>
-          <li><a href="#">Especificações</a></li>
-          <li><a href="#">Comprar</a></li>
-        </ul>
+  <body class="leading-normal tracking-normal">
+    <header class="w-full container mx-auto">
+      <nav class="flex items-center justify-between flex-wrap p-6 top-0">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+          <a
+            class="text-white no-underline hover:text-white hover:no-underline w-60"
+            href="#"
+          >
+            <img src="./svg/logo.svg" alt="Glourious Logo" />
+          </a>
+        </div>
+
+        <div class="block lg:hidden">
+          <button
+            id="nav-toggle"
+            class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white"
+          >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+
+        <div
+          class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0"
+          id="nav-content"
+        >
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+            <li class="mr-3">
+              <a
+                class="text-lg font-medium inline-block text-gray-100 no-underline hover:text-yellow-400 hover:text-underline py-2 px-4"
+                href="#"
+                >Principal</a
+              >
+            </li>
+            <li class="mr-3">
+              <a
+                class="text-lg font-medium inline-block text-gray-100 no-underline hover:text-yellow-400 hover:text-underline py-2 px-4"
+                href="#"
+                >Sobre</a
+              >
+            </li>
+            <li class="mr-3">
+              <a
+                class="text-lg font-medium inline-block text-gray-100 no-underline hover:text-yellow-400 hover:text-underline py-2 px-4"
+                href="#"
+                >Produto</a
+              >
+            </li>
+            <li class="mr-3">
+              <a
+                class="text-lg font-medium inline-block text-gray-100 no-underline hover:text-yellow-400 hover:text-underline py-2 px-4"
+                href="#"
+                >Especificações</a
+              >
+            </li>
+            <li class="mr-3">
+              <a
+                class="text-lg font-medium inline-block text-gray-100 no-underline hover:text-yellow-400 hover:text-underline py-2 px-4"
+                href="#"
+                >Comprar</a
+              >
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
-    <section>
-      <div>
-        <div>
-          <h1>Mostre toda sua glória</h1>
-          <p>
+    <section class="container mx-auto px-6 pb-20">
+      <div class="px-3 mx-auto flex flex-col md:flex-row md:w-5/5 items-center">
+        <div
+          class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left"
+        >
+          <h1 class="my-1 text-6xl font-bold leading-light md:py-2">
+            Mostre toda sua <span class="rgb">glória</span>
+          </h1>
+          <p class="leading-normal text-1xl mb-10">
             Um mouse sem fio ultraleve de alto desempenho com novo sensor BAMF,
             jogue sem lag com a melhor conectividade do mercado!
           </p>
+          <div class="m-auto md:m-0 md:py-2 text-yellow-300">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i
+            ><i class="fas fa-star"></i><i class="fas fa-star"></i
+            ><i class="fas fa-star"></i>
+            <span> 20 reviwes</span>
+          </div>
+          <div class="py-5 m-auto md:m-0 md:py-8">
+            <h4>Escolha a cor</h4>
+            <button
+              class="bg-white hover:bg-gray-100 text-gray-800 font-regular py-1 px-2 border border-gray-400 rounded shadow"
+            >
+              Black
+            </button>
+            <button
+              class="bg-white hover:bg-gray-100 text-gray-800 font-regular py-1 px-2 border border-gray-400 rounded shadow"
+            >
+              White
+            </button>
+          </div>
+          <div class="py-8 m-auto md:m-0 md:py-10">
+            <h3 class="text-yellow-400 font-bold text-4xl">
+              <span class="text-lg">R$</span>499<span class="text-lg">,90</span>
+            </h3>
+            <button
+              class="mx-auto lg:mx-0 hover: bg-white text-gray-800 font-bold rounded-md my-4 py-2 px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            >
+              <i class="fas fa-shopping-cart mr-1"></i> Add Carrinho
+            </button>
+          </div>
         </div>
-        <div>
-          <i>Estrelas</i>
-          <p>20 reviwes</p>
-        </div>
-        <div>
-          <h4>Escolha a cor</h4>
-          <a href="#">Black</a>
-          <a href="#">White</a>
-        </div>
-        <div>
-          <span>R$599,90</span>
-          <a href="#"><i></i>Add Carrinho</a>
-        </div>
-      </div>
 
-      <div>
-        <div>
-          <img />
-          <img />
-        </div>
-        <div>
-          <a href="#"><i></i>Matte Black</a>
-          <a href="#"><i></i>Matte White</a>
+        <div class="w-full md:w-2/2 py-6 text-center">
+          <div class="flex flex-col justify-center">
+            <img class="w-full md:w-5/5 z-50" src="./svg/mouse.svg" />
+            <div class="">
+              <a href="#"><i class="far fa-circle"></i></a>
+              <a href="#"><i class="fas fa-circle"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section>
-      <div>
-        <img />
-      </div>
-    </section>
+    <aside class="bg-sponsor"></aside>
 
-    <section>
-      <div>
+    <section class="box-gradient py-40">
+      <div class="container mx-auto px-6">
         <div>
           <img src="" alt="" />
         </div>
@@ -84,7 +165,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="container mx-auto px-6 hegth">
       <div>
         <div>
           <h1>Construção</h1>
@@ -103,7 +184,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="container mx-auto px-6 hegth">
       <div>
         <h1>Produto</h1>
         <div>
@@ -117,7 +198,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="container mx-auto px-6 hegth">
       <div>
         <div>
           <img src="" alt="" />
@@ -158,13 +239,12 @@
       </div>
     </section>
 
-    <footer>
-      <div>
+    <footer class="m-full bg-gray-900 py-10">
+      <div class="container mx-auto">
         <div><i></i>Go Top</div>
-      </div>
-      <div>
         <p>Copyright Glourious - 2020</p>
       </div>
     </footer>
   </body>
+  <script src="js/script.js"></script>
 </html>
