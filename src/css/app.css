@@ -27,7 +27,6 @@ section {
 aside {
   width: 100%;
   vertical-align: middle;
-
   background: fixed;
 }
 .bg-sponsor {
@@ -38,12 +37,25 @@ aside {
   background-position: right 30% bottom 55%;
   transform: skewY(-2deg);
 }
-h1 {
+.bg-texture {
+}
+/* h1 {
   color: var(--white);
   font-size: 3.875rem;
   font-weight: 700;
+} */
+.box-2deg {
+  transform: skewY(-2deg);
 }
-
+.bdtop {
+  border-top: solid 16px var(--amarelo);
+}
+.bdtop-cyan {
+  border-top: solid 16px var(--cyano);
+}
+.box-0deg {
+  transform: skewY(2deg);
+}
 .amarelo {
   color: var(--amarelo);
 }
@@ -75,4 +87,19 @@ h1 {
 }
 .box-gradient {
   background: linear-gradient(to top, #121212, #17181a);
+}
+.box-gradient-dark {
+  background: linear-gradient(to bottom, #050505, #101011);
+}
+.box-gradient-grey {
+  background: linear-gradient(to top, #191919, #121213);
+}
+.cyano {
+  color: var(--cyano);
+}
+.yellow {
+  color: var(--amarelo);
+}
+.bd-yellow {
+  border: solid 1px var(--amarelo);
 }
