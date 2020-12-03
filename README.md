@@ -39,5 +39,6 @@ yarn start
 ```
 
 <hr>
+
 #### Linceça:
 Você pode utilizar esse projeto da forma que bem entender, respeitando o o conteúdo contido (Imagens, textos, especificações) que pertencem à PC GAMING RACE
