@@ -2,9 +2,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
   // Especifique os caminhos para todos os arquivos de modelo em seu projeto
   content: [
     './src/**/*.html',
-    './src/**/*.vue',
-    './src/**/*.jsx',
-    // etc.
+    './src/**/*.js',
   ],
 
   // Inclua quaisquer caracteres especiais que você esteja usando nesta expressão regular
