@@ -19,15 +19,20 @@ O conteúdo tem os seus direitos reservados à marca [PC Gaming Race](https://ww
 <hr>
 #### Modo de Desenvolvimento
 Instale os pacotes necessários
+
 ```
 yarn 
 ```
+
 Subir o servidor de desenvolvimento
+
 ```
 yarn dev
 ```
+
 Build a versão final
 * será gerado uma pasta com o nome dist 
+
 ```
 yarn build
 ```
