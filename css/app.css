@@ -1,7 +1,3 @@
-/* purgecss start ignore */
-@tailwind base;
-@tailwind components;
-/* purgecss end ignore */
 @import url('http://fonts.cdnfonts.com/css/sf-ui-display');
 :root {
   --amarelo: #fdba3b;
@@ -196,4 +192,3 @@ aside {
     transform: scale3d(1, 1, 1);
   }
 }
-@tailwind utilities;
