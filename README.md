@@ -23,7 +23,7 @@ O conteúdo tem os seus direitos reservados à marca [PC Gaming Race](https://ww
 Instale os pacotes necessários
 
 ```
-yarn 
+yarn
 ```
 
 Subir o servidor de desenvolvimento
@@ -33,19 +33,16 @@ yarn dev
 ```
 
 Build a versão final
-* será gerado uma pasta com o nome dist 
+
+- será gerado uma pasta com o nome 'dist'
+- dist é onde os arquivos estão prontos para deploy
 
 ```
 yarn build
 ```
 
-Subir o servidor de produção
-
-```
-yarn start
-```
-
 <hr>
 
 #### Linceça:
+
 Você pode utilizar esse projeto da forma que bem entender, respeitando o o conteúdo contido (Imagens, textos, especificações) que pertencem à PC GAMING RACE
