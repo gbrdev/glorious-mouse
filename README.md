@@ -17,7 +17,9 @@ Lading page feita para a disciplina de Projeto de Navegação e Interação
 O conteúdo tem os seus direitos reservados à marca [PC Gaming Race](https://www.pcgamingrace.com/)
 
 <hr>
+
 #### Modo de Desenvolvimento
+
 Instale os pacotes necessários
 
 ```
