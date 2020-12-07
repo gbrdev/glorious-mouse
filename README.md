@@ -10,8 +10,9 @@ Lading page feita para a disciplina de Projeto de Navegação e Interação
 #### Ferramentas
 
 - Figma (Prototipagem)
-- Tailwind CSS (Framwork CSS)
-- PostCSS
+- Tailwind CSS v2.0.1 (Framwork CSS)
+- PostCSS 7
+- Postcss PurgeCSS 2.0.3
 - HTML, CSS e JavaScript
 
 O conteúdo tem os seus direitos reservados à marca [PC Gaming Race](https://www.pcgamingrace.com/)
