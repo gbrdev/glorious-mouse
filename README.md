@@ -3,7 +3,7 @@
 #### Glorious Mouse Model O
 
 Lading page feita para a disciplina de Projeto de Navegação e Interação
-[Ver o projeto final](https://glorious-mouse.vercel.app/)
+[Ver o projeto final](https://glorious-mouse-8zpae.ondigitalocean.app/)
 
 - Prototipagem da página → [Figma](https://www.figma.com/file/XPMnn4rYbALAWikw3wRZXQ/Untitled?node-id=0%3A1)
 
